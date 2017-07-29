@@ -41,8 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IUpdateQualityStrategy.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="ItemQualityService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StoreItem.cs" />
+    <Compile Include="Strategies\BackstagePassUpdateQualityStrategy.cs" />
+    <Compile Include="Strategies\BetterWithTimeUpdateQualityStrategy.cs" />
+    <Compile Include="Strategies\ConjuredItemUpdateQualityStrategy.cs" />
+    <Compile Include="Strategies\DefaultUpdateQualityStrategy.cs" />
+    <Compile Include="Strategies\LegendaryUpdateQualityStrategy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
